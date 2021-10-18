@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "name":"Primary Care",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvUmIQhATKo-Dhm8HU03wYEr8HsBsaNj9ig&usqp=CAU",
+        "description":"Boost your career in the health industry. Learn from the most esteemed researchers. Use analytical tools to define and describe public health problems."
+    },
+    {
+        "id":"2",
+        "name":"Sport Medicine",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzMmwyH0j5IvJLeQ_lvPZUox4VJPRAIv_MQ&usqp=CAU",
+        "description":"Trusted results for Health Insurance Us. Check Visymo Search for the best results! Unlimited Access. 100% Secure. Always Facts. Privacy Friendly. The Best Resources. Results & Answers."
+    },
+    {
+        "id":"3",
+        "name":"Emergence Medicine",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20B2uRzp5l8VayW-aBeJIWMLPz46p4RtmhQ&usqp=CAU",
+        "description":"Get energizing workout moves, healthy recipes, and advice on losing weight and feeling great from Health.com. Find out how to manage diabetes and depression ."
+    },
+    {
+        "id":"4",
+        "name":"Cardology",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57XaNjItp5JZlmAvav3m9Y6ybGNjcbtTZkg&usqp=CAU",
+        "description":"WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health responses."
+    },
+    {
+        "id":"5",
+        "name":"Genaerl Surgury",
+        "img":"https://5.imimg.com/data5/SELLER/Default/2020/10/AX/AC/MT/1261041/mayo-straight-scissor-general-surgery-surgical-instrument-500x500.jpg",
+        "description":"Health, according to the World Health Organization, is a state of complete physical, mental and social well-being and not merely the absence of disease and ."
+    },
+    {
+        "id":"6",
+        "name":"Infectuas Discase",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlatVutB9Gjyv4vVtGYpGec-PugdVuMSZc2A&usqp=CAU",
+        "description":"Nonprofit organization dedicated to help people live their best life. Latest on evidence based health, nutrition and wellness information. View Posts. Subscribe To Newsletter."
+    }
+]
