@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create "MEDICON" health related website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://assignment-10-5025b.web.app/).
 
 ## Available Scripts
 

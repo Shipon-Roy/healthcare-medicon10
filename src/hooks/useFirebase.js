@@ -6,7 +6,7 @@ initializeAuthentication()
 
 const useFirebase = () => {
     const [user, setUser] = useState({})
-    const [error, setError] = useState('')
+    const [isLoading, setIsLoading] = useState(true)
  
     const auth = getAuth()
     const googleProvider = new GoogleAuthProvider()
@@ -19,18 +19,14 @@ const useFirebase = () => {
             console.log(user)
             setUser(result.user)
         })
-        .catch(error => {
-            setError(error.massage)
-        })
+        .finally( () => setIsLoading(false))
     }
     const signInUsingGithub = () => {
         signInWithPopup(auth, githubProvider)
         .then(result => {
             setUser(result.user)
         })
-        .catch(error => {
-
-        })
+        .finally( () => setIsLoading(false))
     }
     useEffect( () => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
@@ -40,16 +36,18 @@ const useFirebase = () => {
             else{
                 setUser({})
             }
+            setIsLoading(false)
         })
         return () => unsubscribed;
     }, [])
     const logOut = () => {
+        setIsLoading(true)
         signOut(auth)
         .then(result => { })
+        .finally( () => setIsLoading(false))
     }
     return {
         user,
-        error,
         logOut,
         signInUsingGoogle,
         signInUsingGithub
