@@ -9,7 +9,7 @@ const Header = () => {
         <div className=" sticky-top">
             <nav className="navbar navbar-dark bg-dark">
             <div className="container">
-                <Link to="/home" className="navbar-brand text-bold">EDICON</Link>
+                <Link to="/home" className="navbar-brand text-bold">MEDICON</Link>
                 <div className="text-white header-menu">
                     <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
